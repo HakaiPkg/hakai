@@ -1,0 +1,17 @@
+[package]
+id = hakai
+name = Hakai
+description = The core of the Hakai package manager
+author = Zffu
+language = C
+tags = manager,package
+url = https://github.com/HakaiPkg/hakai
+  
+[required]
+gcc
+cmake
+
+[install]
+buildcomamnd = make
+sourcefiles = target
+
